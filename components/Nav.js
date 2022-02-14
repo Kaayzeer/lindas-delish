@@ -5,10 +5,10 @@ import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import Image from "next/image";
 
 const navigation = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
+  /* { name: "Dashboard", href: "#", current: true }, */
+  { name: "Hem", href: "#", current: true },
+  { name: "Produkter", href: "#", current: false },
+  { name: "Kontakt", href: "#", current: false },
 ];
 
 function classNames(...classes) {
@@ -52,6 +52,15 @@ export default () => {
                     />
                   </span>
                 </div>
+                {/*       <button
+                  type="button"
+                  className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                >
+                  <span className="sr-only">View notifications</span>
+                  <BellIcon className="h-6 w-6" aria-hidden="true" />
+                </button> */}
+              </div>
+              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
@@ -60,9 +69,9 @@ export default () => {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "bg-gray-900 text-white"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                          "px-3 py-2 rounded-md text-sm font-medium"
+                            ? " text-turq  tracking-wide"
+                            : "text-black-300 tracking-widest hover:text-turq hover:underline",
+                          "px-3 py-2 rounded-md text-lg font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -71,15 +80,6 @@ export default () => {
                     ))}
                   </div>
                 </div>
-              </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button
-                  type="button"
-                  className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-                >
-                  <span className="sr-only">View notifications</span>
-                  <BellIcon className="h-6 w-6" aria-hidden="true" />
-                </button>
 
                 {/* Profile dropdown */}
                 <Menu as="div" className="ml-3 relative">
