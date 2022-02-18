@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 export default ({ text }) => {
   return (
-    <section className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 ">
+    <section className="mWown mx-auto px-2 sm:px-6 lg:px-8 ">
       <div className={styles.sectionbg}>
         <div className={styles.leftColumn}>
           <div className={styles.textWrapper}>

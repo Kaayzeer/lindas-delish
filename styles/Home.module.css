@@ -1,12 +1,7 @@
 .sectionbg {
-  background-image: linear-gradient(
-      rgba(215, 234, 237, 0.761),
-      rgba(215, 234, 237, 0.761)
-    ),
-    url(/bgoverlay-ld.png);
-
+  background-image: var(--bg-image), url(/bgoverlay-ld.png);
   height: 70vh;
-  margin-top: 1rem;
+  margin-top: 1.6rem;
 }
 
 .leftColumn {
@@ -19,12 +14,12 @@
 }
 
 .textWrapper {
-  width: 400px;
-  height: 200px;
+  width: 40rem;
+  height: 20rem;
 }
 
 .text {
-  font-size: 3.5rem;
+  font-size: 5.6rem;
   letter-spacing: 2px;
   text-align: left;
 }

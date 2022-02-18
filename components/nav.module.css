@@ -1,0 +1,30 @@
+.container {
+  height: 7vh;
+  background-color: var(--text-white);
+  color: var(--text-black);
+  max-width: 120rem;
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.title {
+  margin-right: auto;
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.link {
+  font-size: 2rem;
+}
+
+.link:not(:last-child) {
+  margin-right: 1.4rem;
+}

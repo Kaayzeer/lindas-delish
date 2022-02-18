@@ -11,6 +11,12 @@ module.exports = {
       height: {
         128: "40rem",
       },
+      width: {
+        mWown: "1200px",
+      },
+      fontSize: {
+        default: "1.6rem",
+      },
     },
   },
   plugins: [],
