@@ -5,9 +5,5 @@ import Layout from "../components/Layout";
 import Banner from "../components/Banner";
 
 export default () => {
-  return (
-    <Layout>
-      <Banner text="Lindas Delish" />
-    </Layout>
-  );
+  return <Layout></Layout>;
 };
