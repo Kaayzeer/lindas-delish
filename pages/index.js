@@ -9,13 +9,7 @@ export default (/* { events } */) => {
   return (
     <Layout>
       <Banner text="Lindas Delish" />
-<<<<<<< HEAD
-
-      <button className="btn-outlined">Lägg till korgen</button>
-      <Products />
-=======
       <Card /* events={events}  */ />
->>>>>>> 1894b39acac4a97079cde25d82ceb2e2dd93b8c5
     </Layout>
   );
 };
