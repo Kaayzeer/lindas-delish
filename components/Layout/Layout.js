@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./Nav/Nav";
+import Nav from "../Nav/Nav";
 import Head from "next/head";
 
 export default function Layout({ children, text, description, keywords }) {
