@@ -9,6 +9,8 @@ export default () => {
   return (
     <Layout>
       <Banner text="Lindas Delish" />
+
+      <button className="btn-outlined">Lägg till korgen</button>
       <Products />
     </Layout>
   );
