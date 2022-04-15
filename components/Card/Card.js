@@ -71,6 +71,7 @@ export default function Card() {
                   </p>
                 </div>
               </div>
+              <button className="btn-outlined">Lägg till korgen</button>
             </div>
           ))}
         </div>
